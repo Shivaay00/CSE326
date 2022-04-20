@@ -1,0 +1,99 @@
+.verdiv{
+    float: left;
+    background-image: linear-gradient(to bottom right, cyan, powderblue);
+    height: 600px;
+    width: 30%;
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    border-radius: 30px;
+}
+html{
+    font-family: "Lucida Sans", sans-serif;
+    background-color: wheat;
+}
+.inp{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    margin: 20px;
+    background-image: linear-gradient(to bottom right,whitesmoke,wheat);
+    border: 0px;
+    border-radius: 5px;
+}
+.rightdiv{
+    margin-top:30px;
+}
+a{
+    margin-left: 10px;
+    color: white;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    background-image: linear-gradient(to bottom left, pink,rgba(255, 0, 0, 0.459));
+    border: 1px solid white;
+}
+.image{
+    margin: 20px;
+}
+.packages{
+    font-size: small;
+    color: black;
+    margin:10px;
+}
+.tourist-trains{
+   
+    color: white;
+    padding:10px;
+    margin-left:90px;
+    border-radius: 5px;
+    float: left;
+    background-image: linear-gradient(to bottom right, Yellow, orange);
+}
+.international-Packages{
+    color: white;
+    padding:10px;
+    margin-left:90px;
+    border-radius: 5px;
+    float: left;
+    background-image: linear-gradient(to bottom right, pink, red);
+}
+.National-Packages{
+    color: white;
+    padding:10px;
+    margin-left:90px;
+    border-radius: 5px;
+    float: left;
+    background-image: linear-gradient(to bottom right,green, cyan);
+}
+a:hover{
+    padding: 7px;
+    font-size: 25px;
+    background-image: linear-gradient(to bottom right,green, cyan);
+}
+button{
+    margin-left: 10px;
+    color: white;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    background-image: linear-gradient(to bottom left, pink,rgba(255, 0, 0, 0.459));
+    border: 1px solid white;
+}
+button:hover{
+    padding: 7px;
+    font-size: 25px;
+    background-image: linear-gradient(to bottom right,green, cyan);
+}
+@keyframes slidein{
+    0%{transform:translateX(-100%);}
+    100%{transform:translateX(0%)}
+}
